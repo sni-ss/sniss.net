@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>𝖘𝖓𝖎𝖘𝖘.𝖓𝖊𝖙 ✦✦✦ home</title>
+        <style>
+            @font-face { font-family: basiic; src: url('fonts/basiic.ttf'); }
+            @font-face { font-family: romancea; src: url('fonts/RomanceA.ttf'); }
+        </style>
+    </head>
+<style>
+body {
+    background-color: #000000;
+}
+
+/* SIDEBAR */
+
+.sidebar {
+  font-family: basiic;
+  height: 100%;
+  width: 150px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-image: url("gifs/space_bg2.gif");
+  overflow-x: hidden;
+  padding-top: 20px;
+  border-style: ridge;
+  border-radius: 0px 40px 40px 0px;
+  box-shadow: 5px 5px 40px;
+
+}
+.sidebar a {
+  padding: 6px 6px 6px 6px;
+  text-decoration: none;
+  font-size: 30px;
+  color: #ffffff;
+  display: block;
+  text-align: center;
+}
+.sidebar a:hover {
+    font-weight: bold;
+    text-align: center;
+}
+
+.sidebar h3 {
+    color:rgb(255, 255, 255);
+    text-align: center;
+}
+
+@media screen and (max-height: 450px) {
+    .sidebar {padding-top :15px;}
+    .sidebar a {font-size: 18px;}
+}
+
+/* MAIN */
+
+
+.main {
+    margin-left: 200px;
+    margin-right: auto;
+    font-size: 28px;
+    padding: 0px 10px;
+    max-width:100%;
+    height: auto;
+}
+
+.snisslogo {
+display: block;
+margin-left: auto;
+margin-right:auto;
+width: 50%;
+}
+
+.latestvid {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 3px;
+    border-style: ridge;
+    border-color: #642152;
+    box-shadow: 2px 2px 10px;
+}
+
+.latesttext {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+}
+
+.roof {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -20px;
+
+}
+
+.fenceleft {
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right:auto;
+    bottom: 1223px;
+    right: 548px;
+    scale: 1.5;
+    z-index: -1;
+    image-rendering: pixelated;
+}
+.fenceright {
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right:auto;
+    bottom: 1363px;
+    left: 750px;
+    scale: 1.5;
+    z-index: -1;
+    image-rendering: pixelated;
+}
+
+.pathimage {
+    display:block;
+    image-rendering: pixelated;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    scale: 2;
+}
+.dirtpatch {
+    position:relative;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    right: 200px;
+    top: -200px;
+}
+.flower {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    top: -380px;
+    right: 200px;
+    scale: 2;
+    image-rendering: pixelated;
+}
+
+.watering {
+    display:block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 500px;
+    right: 100px;
+    scale: 2;
+    image-rendering: pixelated;
+}
+
+.mailbox {
+    position: relative;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 900px;
+    left: 400px;
+}
+.background {
+    background-image: url(images/grass.jpg);
+    background-position: bottom;
+}
+
+</style>
+
+<!--  BODY  -->
+
+<body>
+
+
+<!-- sidebar -->
+<div class="sidebar">
+    <h3>hamburger helper</h3>
+    <a class=home href="#"><img src="gifs/home.gif" style="padding-bottom:10px;">home</a>
+    <a class=videos href="videos.html"><img src="gifs/moviereel.gif" style="padding-top: 10px; padding-bottom: 5px;">videos</a>
+    <a class="music" href"#"><img src="gifs/music.gif" style="width: 90px;">music</a>
+    <a class=about href="#"><img src="gifs/book.gif" style="width:80px">about</a>
+    <a class="patreon" href="https://patreon.com/sniss" style="position: fixed; bottom: 10px; margin-left: auto; margin-right: auto;"><img src="logos/patreon.png" style="width:20px;"></a>
+</div>
+
+<!-- MAIN -->
+
+<div class="main">
+    <img src="logos/sniss2.png" class="snisslogo" alt="sniss logo" style="width:200px ;">
+
+<img src="images/roof.png" class="roof" alt="the roof of home!" style="width:692px;">
+<iframe
+class="latestvid"
+width="560" 
+height="315" 
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+allowfullscreen
+src="https://www.youtube.com/embed?listType=playlist&list=UU52TIYLWZJmFka4GRobmOrw">
+</iframe>
+
+<img src="images/path.png" class="pathimage" alt="a gleaming purple stone path" style="width:400px">
+</div>
+
+<img src="images/dirtpatch.png" class="dirtpatch" alt="small garden bed" style="width:350px">
+
+<a class="flowerlink" href="#"><img src="gifs/flower.gif" class="flower" alt="an odd little flower"></a>
+<img src="gifs/watering.gif" class="watering" alt="silver watering can">
+
+<a href="#"><img class="mailbox" src="gifs/mailbox.gif" alt="my mailbox"></a>
+
+<img src="images/fence.png" class="fenceleft">
+
+<img src="images/fence.png" class="fenceright">
