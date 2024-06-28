@@ -8,8 +8,9 @@
         </style>
     </head>
 <style>
+
 body {
-    background-color: #000000;
+    background-color: #13831c;
 }
 
 /* SIDEBAR */
@@ -80,6 +81,7 @@ width: 50%;
     border-style: ridge;
     border-color: #642152;
     box-shadow: 2px 2px 10px;
+    z-index: 1;
 }
 
 .latesttext {
@@ -105,7 +107,7 @@ width: 50%;
     bottom: 1223px;
     right: 548px;
     scale: 1.5;
-    z-index: -1;
+    z-index: 0;
     image-rendering: pixelated;
 }
 .fenceright {
@@ -116,7 +118,7 @@ width: 50%;
     bottom: 1363px;
     left: 750px;
     scale: 1.5;
-    z-index: -1;
+    z-index: 0;
     image-rendering: pixelated;
 }
 
@@ -127,6 +129,7 @@ width: 50%;
     margin-left: auto;
     margin-right: auto;
     scale: 2;
+    z-index: 1;
 }
 .dirtpatch {
     position:relative;
@@ -165,11 +168,18 @@ width: 50%;
     margin-right: auto;
     bottom: 900px;
     left: 400px;
+    z-index: 2;
 }
-.background {
-    background-image: url(images/grass.jpg);
-    background-position: bottom;
+.sky {
+    background-color: aqua;
+    z-index: -1;
+    width: 2300px;
+    height: 733px;
 }
+.ground {
+    background-color: green;
+}
+
 
 </style>
 
@@ -179,40 +189,53 @@ width: 50%;
 
 
 <!-- sidebar -->
-<div class="sidebar">
+<nav class="sidebar">
     <h3>welcome to sniss.net <3</h3>
     <a class=home href="#"><img src="gifs/home.gif" style="padding-bottom:10px;">home</a>
     <a class=videos href="videos.html"><img src="gifs/moviereel.gif" style="padding-top: 10px; padding-bottom: 5px;">videos</a>
     <a class="music" href"#"><img src="gifs/music.gif" style="width: 90px;">music</a>
     <a class=about href="#"><img src="gifs/book.gif" style="width:80px">about</a>
     <a class="patreon" href="https://patreon.com/sniss" style="position: fixed; bottom: 10px; margin-left: auto; margin-right: auto;"><img src="logos/patreon.png" style="width:20px;"></a>
-</div>
+</nav>
+
+
 
 <!-- MAIN -->
 
-<div class="main">
-    <img src="logos/sniss2.png" class="snisslogo" alt="sniss logo" style="width:200px ;">
 
-<img src="images/roof.png" class="roof" alt="the roof of home!" style="width:692px;">
-<iframe
-class="latestvid"
-width="560" 
-height="315" 
-allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-allowfullscreen
-src="https://www.youtube.com/embed?listType=playlist&list=UU52TIYLWZJmFka4GRobmOrw">
-</iframe>
+<div class="sky">
 
-<img src="images/path.png" class="pathimage" alt="a gleaming purple stone path" style="width:400px">
+
+<div class="main" >
+        <img src="logos/sniss2.png" class="snisslogo" alt="sniss logo" style="width:200px ;">
+
+    <img src="images/roof.png" class="roof" alt="the roof of home!" style="width:692px;">
+
+    <iframe
+        class="latestvid"
+        width="560" 
+        height="315" 
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen
+        src="https://www.youtube.com/embed/videoseries?list=PLPOJ1W1EOHqFNwgttk4zVRJK8v9gx-ISD">
+    </iframe>
+
+    <img src="images/path.png" class="pathimage" alt="a gleaming purple stone path" style="width:400px">
+
 </div>
 
 <img src="images/dirtpatch.png" class="dirtpatch" alt="small garden bed" style="width:350px">
 
 <a class="flowerlink" href="#"><img src="gifs/flower.gif" class="flower" alt="an odd little flower"></a>
+
 <img src="gifs/watering.gif" class="watering" alt="silver watering can">
 
 <a href="#"><img class="mailbox" src="gifs/mailbox.gif" alt="my mailbox"></a>
 
 <img src="images/fence.png" class="fenceleft">
-
 <img src="images/fence.png" class="fenceright">
+
+</div>
+</div>
+
+</body>
