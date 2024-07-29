@@ -1,1 +1,3 @@
-this is an early version of a website for everything i do online and also other stuff that is pointless i just made it cuz it was fun
+welcome to an early version of sniss.net, a site that is almost pointless other than i want to make something silly
+
+thanks for checking it out
