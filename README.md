@@ -1,3 +1,3 @@
-welcome to an early version of sniss.net, a site that is almost pointless other than i want to make something silly
+# welcome to sniss.net
 
-thanks for checking it out
+this is an early version of my website please enjoy thx <3
